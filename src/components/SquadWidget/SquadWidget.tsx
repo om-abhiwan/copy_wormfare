@@ -31,7 +31,7 @@ export const SquadWidget: React.FC<SquadWidgetProps> = ({ className }) => {
   if (!userProfile?.squad) {
     return (
       <div onClick={navigateToSquad} className={clsx(styles.join, className)}>
-        <span className={styles.title}>Join Squad</span>
+        <span className={styles.title}>Join Squad v.0.1</span>
         <ArrowSvg className={styles.icon} />
       </div>
     );
