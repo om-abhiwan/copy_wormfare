@@ -6,7 +6,7 @@ export const vibrate = () => {
     navigator.msVibrate;
 
   if (navigatorVibrate) {
-    navigatorVibrate.call(navigator, [15]);
+    navigatorVibrate.call(navigator, [105]);
   } else {
     window.Telegram?.WebApp?.HapticFeedback.impactOccurred('light');
   }

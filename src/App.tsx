@@ -50,9 +50,9 @@ const App: React.FC = () => {
     return <DesktopStubScreen />;
   }
 
-  if (isLoading) {
-    return <Preloader />;
-  }
+  // if (isLoading) {
+  //   return <Preloader />;
+  // }
 
   return (
     <LazyMotion features={domAnimation}>
